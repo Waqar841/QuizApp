@@ -66,3 +66,68 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+/* ---------------
+Q & A section 
+--------------- */
+
+.quiz-QA-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  height: 60%;
+  gap: 2rem;
+  width: 100%;
+}
+
+.answers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  border: 3px solid lightgrey;
+  height: 3.2rem;
+  padding: 1rem 
+}
+
+.q-question{
+  font-weight: 600;
+}
+
+.next-btn{
+  border-radius: 7px;
+  padding: 14px 30px;
+  font-weight: 600;
+  color: white;
+  background: #2478ec;
+  float: right;
+  margin-top: 9%; 
+  cursor: pointer;
+}
+
+.answer-section{
+  width: 100%;
+  cursor: pointer;
+}
+
+/* ----------------
+correct Answer
+---------------- */
+
+.right-answer{
+  border: 3px solid green;
+  background: #ddecdd;
+}
+
+.wrong-answer{
+  border: 3px solid indianred;
+  background: indianred;
+}
+
+.unclickable{
+  cursor: not-allowed;
+  pointer-events: none;
+}
