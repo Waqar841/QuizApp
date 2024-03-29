@@ -112,3 +112,22 @@ Q & A section
   width: 100%;
   cursor: pointer;
 }
+
+/* ----------------
+correct Answer
+---------------- */
+
+.right-answer{
+  border: 3px solid green;
+  background: #ddecdd;
+}
+
+.wrong-answer{
+  border: 3px solid indianred;
+  background: indianred;
+}
+
+.unclickable{
+  cursor: not-allowed;
+  pointer-events: none;
+}
